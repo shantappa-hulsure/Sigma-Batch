@@ -1,0 +1,27 @@
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    animation-name: ssh;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    /* animation shorthand
+     animation: name duration timing-function delay  iteration-count direction;
+    */
+}
+
+@keyframes ssh {
+    from{
+        background-color: aqua;
+    }
+    to{
+        height: 50px;
+        background-color: black;
+    }
+
+    /* iske andar ham percentage bi use karsakte stages ke liye as 0% 25% 50% 100% */
+
+}

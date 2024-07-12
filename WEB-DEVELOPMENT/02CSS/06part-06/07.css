@@ -1,0 +1,23 @@
+.box1{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+   z-index: 1;
+   /* z-index nahi chalata position static ya default tha toh   */
+}
+.box2{
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    bottom: 150px;
+    z-index: 2;
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    position: relative;
+    bottom: 250px;
+    z-index: 0;
+}

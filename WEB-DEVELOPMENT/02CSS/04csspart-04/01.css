@@ -1,0 +1,18 @@
+/*   alpha channel  
+    sets opacity 
+    { rgba } 
+*/
+.alpha{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255,0,0,0.5);
+    padding: 10px;
+}
+.opacity{
+    margin: 10px;
+    height: 80px;
+    width: 80px;
+    background-color:yellow;
+    opacity: 0.5;
+    /* opacity meh pura item ko apply hoga */
+}

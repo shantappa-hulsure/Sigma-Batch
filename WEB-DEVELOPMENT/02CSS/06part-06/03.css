@@ -1,0 +1,23 @@
+@media(width>700px){
+    /* or likh sakte ki min-width:700px */
+    body{
+        background-color: blue;
+    }
+}
+@media(width=700px){
+body{
+    background-color: green;
+}
+}
+@media(600px<width<700px){
+    /* or likh sakte ki max-width:700px  we can use min-width and max-width*/
+    body{
+        background-color: yellow;
+    }
+}
+@media(orientation:landscape){
+    body{
+        background-color: black;
+        /* phone rotate karke dekne ka */
+    }
+}

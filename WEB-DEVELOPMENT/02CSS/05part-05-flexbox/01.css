@@ -1,0 +1,42 @@
+#container{
+height: 500px;
+width: 80%;
+background-color: azure;
+margin: 10px auto;
+border: 2px solid black;
+display: flex;
+/* there are 4 types of direction==  row row-reverse column column-reverse */
+flex-direction: row;
+
+/*     justify content     flex start flex end center space-between    space around     space evenly*/
+justify-content: space-between;
+
+/*   flex wrap  nowrap   wrap  wrap-reverse*/
+flex-wrap: wrap ;   
+ 
+/*    allign items   flex-start fllex-end center baseline ka matlab andar ka text same horizontal line pe ana   */
+  align-items: center;
+/*  align self same align items ki tarah hota hai magar oh individual item with respect to itself */
+
+/* allign content  flex-start flex-end center  space arround space evenly space-between baseline*/
+  align-content: center;  
+
+
+  
+}
+
+
+
+
+
+
+
+
+h1{
+text-align: center;
+}
+#container div{
+    height: 100px;
+    width: 150px;
+    font-size: 1.5em;
+}

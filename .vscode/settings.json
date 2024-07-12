@@ -1,0 +1,5 @@
+{
+    "terminal.sourceControlRepositoriesKind": "integrated",
+    "git.autoRepositoryDetection": true,
+    "git.decorations.enabled": false
+}

@@ -1,0 +1,12 @@
+
+.line{
+    display: flex;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    border:2px dotted rgb(43, 42, 42);
+    border-bottom:2px dotted rgb(43, 42, 42);
+    margin: 0px; 
+    margin-bottom: 0px;
+}

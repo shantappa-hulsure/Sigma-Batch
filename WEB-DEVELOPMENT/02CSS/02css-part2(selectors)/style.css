@@ -1,0 +1,116 @@
+/*              seelctors                    */
+/* universal selectors     */
+*{
+    background-color: aqua;
+}
+
+/* elemewnt selectors */
+h3{
+    color: green;
+}
+h1{
+    color: yellow;
+}
+
+/* id selector   {#id }*/
+#login{
+    background-color: blueviolet;
+}
+
+
+/* classs selectors {.class}*/
+.follow{
+    /* background-color: chartreuse; */
+}
+
+
+/*                 Descendent Selectors                */
+/* anchor tags  inside paragraph tags               */ 
+p a{
+ color: purple;
+ }
+
+ /*                    sibling selectors              */
+p+h3{
+   text-decoration: underline;
+}
+/*                   child combinator                  */
+/* span>button{
+ background-color: red;
+} */
+div>input{
+    background-color: cadetblue;
+}
+
+
+
+/*            attribute selectors            */
+input[type="text"]{
+    color: crimson;
+}
+input[type="password"]{
+   color:black;
+}
+
+
+/*                        pseudo class                                          */
+ button:hover{
+    background-color: black;
+    color:white;
+ }
+ h3:hover{
+    text-decoration: overline;
+ }
+ button:active{
+    background-color: pink;
+    color: black;
+ }
+ p:active{
+    font-weight: bold;
+ }
+input[type="radio"]:checked+label{
+    color: red;
+    font-weight: bold;
+}
+/* 2n ki matlab hai sare even post select hojayenge   */
+div:nth-of-type(2n){
+    background-color: blue;
+}
+
+/*                        pseudo element                                     */
+/*  ::first-letter ::first-line  ::selection */
+h1::first-letter{
+    color: black;
+}
+#parra::first-line{
+    color: green;
+}
+#parra::selection{
+    background-color: black;
+    color: wheat;
+}
+
+/*     cascading  and specificity    
+
+ inline > id selector (#) -> class selector (. ) -> type selector (element name)
+
+ */
+
+ /*      !important  which can never be changed further */
+ h3{
+    background-color: yellow !important;
+ }
+ h3{
+    background-color: green;
+ }
+
+
+/*                  INHERITANCE          */
+/*  all selectors willl auto  inherit properties from parent to child elements*/
+/* except button and input attributes */
+/* agar button aur input ko inherit karwana hai toh explicitly likna padta hia 
+background-color: inherit; bolke */
+
+
+
+

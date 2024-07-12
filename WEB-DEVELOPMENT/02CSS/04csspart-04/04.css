@@ -1,0 +1,14 @@
+.box-shadow{
+    height: 100px;
+    width: 100px;
+    /*  box-shadow: x offset y-offset blur-radius color */
+    box-shadow: 10px 10px 9px greenyellow;
+    margin-bottom: 20px;
+}
+.bimage{
+    height: 400px;
+    width: 300px;
+    background-image:url(https://imgs.search.brave.com/sYyCyi3NHWRrfvy9t_p7xjfldyG--uHMHAz38s7SaqU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzNjLzM1/LzIzLzNjMzUyM2Fj/ZjZlMTY3OTEzZTVk/Mzg2NjJhNmY4YTgy/LmpwZw) ;
+   background-size: cover;
+   /* cover acha rahta hai pura background meh ata hai   */
+}

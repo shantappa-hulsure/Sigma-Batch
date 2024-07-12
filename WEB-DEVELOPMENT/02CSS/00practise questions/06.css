@@ -1,0 +1,33 @@
+/* yaaar  kuch hai uh can do later  */
+.container{
+height:1000px;
+width: 1400px;
+background-color: pink;
+display: grid;
+grid-template-columns:13,1fr ;
+grid-template-rows:13,1fr;
+grid-gap: 10px;
+}
+.box1{
+    grid-column: 1/12;
+    /* grid-row: 1; */
+    background-color: aqua;
+}
+.box2{
+    grid-row: 2/7;
+    grid-column: 1/4;
+    background-color: aqua;
+}
+.box3{
+    grid-column:4/7 ;
+    background-color: aqua;
+}
+.box5{
+    grid-column: 4/12;
+    grid-row: 3/9;
+    background-color: aqua;
+}
+.box4{
+    grid-column:7/10 ;
+    grid-row: 3/12;
+}

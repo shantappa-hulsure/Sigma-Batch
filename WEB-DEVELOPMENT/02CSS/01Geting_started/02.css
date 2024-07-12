@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+}
+h1{
+    font-weight: 900;
+    /* scale will be from 100 to 900 
+    and 700 will be set for bold elements 
+    and 400 will be the normal or default for paragraph and all
+    
+    and bolder and lighter will act acording to its parent element*/
+}
+              /* text decoratin */
+h1{
+    text-decoration: dotted underline ;
+}
+h2{
+    text-decoration:wavy overline;
+}
+h3{
+    text-decoration: line-through;
+    text-decoration-color:red ;
+}
+a{
+    text-decoration: none;
+}
+
+             /*line height  */
+ h2{
+  line-height: 2.5 ; /* 2.5 times normal*/
+}
+                /*letter spacing   */
+h1{
+    letter-spacing: 5px; /*5 times normal space */
+}
+
+
+                /* font size */
+ h3{
+    font-size: 50px;
+}
+p{font-size: 25px;}
+   
+
+             /* font family */
+p{
+    font-family: 'Courier New', Courier, monospace ;
+}

@@ -1,0 +1,43 @@
+#container{
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+
+
+
+
+
+
+}
+
+.orrange{
+    /* flex-basis: 500px; */
+    /* flex basis individual hight ya width badane ke liye use hota hai */
+    /* flex-grow: 2; */
+    flex-shrink: 2;
+
+
+    /* shorthand for flex 
+    flex-grow flex-shrink flex-basis
+    flex basis ke sath unit dala jatha  .
+    agar sirf flex:2; tah toh oh flex grow hai
+    */
+    flex:2 2 100px;
+}
+.yellow{
+    flex-shrink: 1.5;
+    max-width: 300px;
+}
+h1{
+    text-align: center;
+}
+
+
+    #container div{
+        height: 100px;
+        width: 150px;
+        font-size: 1.5em;
+    }

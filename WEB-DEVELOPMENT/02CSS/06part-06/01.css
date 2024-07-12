@@ -1,0 +1,55 @@
+.container{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(87, 246, 246);
+    display: grid;
+    grid-template-rows: 80px 100px 80px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid template rows and columns dene se tabular form meh ata hai */
+    /* fr fr means 1 fraction part of 100 used to divide equally 
+     ex=grid-template-rows:1fr 1fr  or grid-template-rows:repeat(2,1fr) 
+     means divide equally in 2 rows   */
+    
+    /*      grid gaps       */
+    row-gap: 2px;
+    column-gap: 2px;
+    /* for row then column agar yeki diye toh dono ko shame initialige hoga */
+    grid-gap: 10px 20px;
+
+
+    /*       grid properties               */
+     justify-items: end;
+     align-items: start;
+     place-items: center;
+     /* instead of using justify and allign both v can use place items */
+
+}
+.item {
+    width: 80px;
+    height: 70px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+.one{
+    /*  grid columns      */
+    grid-column-start: 2;
+    grid-column-end: 4;
+    /* grid-column: 2/4;       both are same  grid-column:start/end */
+    /* grid-column:2/span 3;   noletoh 2nd box ke bad 3 boxes use hote  */
+    
+    /*    grid row            */
+    /*    same as grid columns    */
+    grid-row-start: 1;
+    grid-row-end:3;
+
+
+  /*     grid properties      */
+ justify-self: start;
+ align-self: end;
+ 
+
+
+
+
+}

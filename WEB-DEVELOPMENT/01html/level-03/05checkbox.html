@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox</title>
+</head>
+<body>
+    <form action="/action">
+        <input type="checkbox" id="age" name="age" checked/>
+        <label for="age">i am 18+</label>
+        <button>submit</button>
+    </form>
+
+    <form action="/ssh">
+        <!-- even after seting the same names multiple values can be selectend and sent to database -->
+        <input type="checkbox" id="math" name="subjects" value="math">
+        <label for="math">Math</label><br>
+        <input type="checkbox" id="english" name="subjects" value="english">
+        <label for="english">English</label><br>
+         <input type="checkbox" name="subjects" id="science" value="science">
+         <label for="science">science</label>
+         <button>submit</button>
+    </form>
+</body>
+</html>

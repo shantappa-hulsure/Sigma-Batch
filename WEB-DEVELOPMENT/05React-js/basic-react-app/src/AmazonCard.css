@@ -1,0 +1,23 @@
+.cards{
+     border-width: 1px 1px 0px 1px ;
+     border-style: solid;
+     border-color: black;
+   box-shadow: 3px 3px grey;
+   margin-left: 20px;
+   border-radius: 10px 10px 0px 0px;
+   text-align: center;
+   /* width: 200px; */
+   
+   
+}
+.price{
+   background-color: rgba(236, 240, 10, 0.653);
+   /* border-radius: 00px 00px 10px 10px; */
+   border-bottom: 1px solid black;
+   display: flex;
+justify-content: center;
+}
+.oldprice{
+   margin-right:30px ;
+   text-decoration: line-through;
+}

@@ -1,0 +1,40 @@
+/* Rotate Scale Skew or Translate */
+
+
+div{
+    height: 70px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 80px;
+    background-color: aqua;
+}
+/*       Rotate      */
+#box1{
+    transform: rotate(50deg);
+    /* ye niche ki taraf 50 degree rotate hota hai we can even use negative sign */
+}
+/*       scale        */
+#box2{
+    transform:scale(2) ;
+    /* scale bass given no se current size ko multiply karta hai */
+    /* hame chahiye toh sirf scale  X and scale Y bi kar sakte  */
+   transform: scalex(1.5);    
+}
+
+/*        translate        */
+#box3{
+ transform: translate(100px,100px);
+ /* agar sirf x ya y direction karna hai toh  */
+ transform: translatex(200px);
+ /* agar piche ya left me lena hai toh use Negative */
+}
+
+/*           skew           */
+#box4{
+    transform:skew(30deg) ;
+    /* skew bole toh  dono side pakadke kichna and if 90deg diya toh gayab hota yar single point banchata hai */
+}
+
+#box5{
+    transform:rotate(90deg) skew(30deg)   ;
+}

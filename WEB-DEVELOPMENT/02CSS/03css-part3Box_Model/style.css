@@ -1,0 +1,84 @@
+div{
+    height: 150px;
+    width: 500px;
+    background-color: pink;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    /* margin shorthand will be same as pading  */
+}
+h1{
+    border: 2px dashed purple;
+    border-bottom-color:green ;
+    border-bottom-style: double;
+    margin: 20;
+}
+.circle{
+    border: 3px solid red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+button{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    /* padding: top&bottom left &right */
+    padding: 10px 10px;
+    /*  padding top right bottom left   clockwise */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h2{
+    display: inline;
+    background-color: aqua;
+}
+span{
+    /* display: block; */
+    background-color: yellow ;
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    padding: 20px;  
+    
+    /* in inline padding will be set only in left and right side 
+    in inline elemens we cant set height and width*/
+}
+.display{
+    margin-top: 20px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: green;
+    /* display none can be used to hide something from users  */
+}
+.percentage{
+    font-size: 20px;
+}
+.percent{
+    width: 50%;
+    height:50%;
+    background-color: blue;
+    margin-left: 15%;
+    font-size: 2em;
+    /* em is userd for font size acording to its parent tag Xem implies font size multiplied by X */
+   padding:1em ; 
+   /* padding same as font size em is nothing but present font size of same div  */
+}
+/* em unit  */
+#click{
+    font-size: 50px;
+    border-radius: 15px;
+    border: 5px solid red;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+/* rem units  */
+/* agar ham rem unit use kare toh sirf yak bar double hoga ya half hoga and sabko same apply hoga */

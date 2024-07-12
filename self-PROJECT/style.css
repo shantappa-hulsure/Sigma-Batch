@@ -1,0 +1,28 @@
+/* .box1{
+    height: 200px;
+    width: 0px;
+    margin:40px ;
+    border: 2px solid black;
+} */
+
+.container{
+    margin: 30px;
+}
+.l1{
+    display: flex;
+
+}
+.point1{
+    margin: 20px;
+    min-height: 2px;
+    min-width: 2px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+.point2{
+    margin: 20px;
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
